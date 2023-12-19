@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './test.component.html',
-  styleUrls: ['./test.component.scss'],
+  styleUrl: './test.component.scss',
 })
 export class TestComponent {
+  constructor() {
+    console.log(localStorage.getItem('test'));
+
+  }
 
 }
