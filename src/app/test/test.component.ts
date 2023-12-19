@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './test.component.html',
   styleUrl: './test.component.scss',
-  exportAs: 'Test'
 })
 export class TestComponent {
 
